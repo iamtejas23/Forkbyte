@@ -1,0 +1,226 @@
+ /* Add your custom styles here */
+
+        /* Example styles for the navbar */
+        nav {
+            background-color: #1c1c1c; /* Navbar background color */
+        }
+
+        nav a {
+            color: #fff !important; /* Navbar link text color */
+        }
+
+        html{
+            background-color: #1b121d;
+        }
+
+        /* hero section */
+        .hero-section {
+            position: relative;
+            text-align: center;
+            color: #fff;
+            background-color: #1b121d; /* Background color if the image doesn't cover the entire section */
+            padding: 100px 0;
+            height: 100vh;
+            
+        }
+
+        .hero-image {
+            width: 256px;
+            height: auto;
+            border-radius: 10px; /* Optional: Add border-radius for a rounded image */
+        }
+
+        .hero-content {
+            max-width: 600px;
+            margin: 0 auto;
+            margin-top: 20px; /* Adjust margin as needed */
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        /* Responsive styles for small screens and mobiles */
+        @media (max-width: 767px) {
+            .hero-content {
+                max-width: 100%;
+            }
+        }
+
+        /* features */
+        /* Unique CSS class names for styling */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #1b121d;
+    box-shadow: 0 0.5rem 1.3rem rgba(0,0,0,.5215686274509804);
+    
+}
+
+.feature {
+    /* text-align: center; */
+    max-width: 300px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature-title {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.feature-description {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Testimonials */
+
+.testimonials-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial {
+    width: 300px; /* Adjust the width based on your design */
+    margin: 20px;
+    text-align: center;
+}
+
+.testimonial img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 50%; /* To make circular images */
+}
+
+/* Responsive styling using media queries */
+@media (max-width: 768px) {
+    .testimonial {
+        width: 100%; /* Full width on small screens */
+    }
+}
+
+/* Additional styling for even smaller screens if needed */
+@media (max-width: 480px) {
+    .testimonial {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Contact form */
+.contact-section {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contact-form {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    color: #1b121d;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        max-width: 100%;
+    }
+}
+
+/* Footer */
+.site-footer {
+    background-color: #1b121d;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    max-width: 400px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.icon:hover {
+    color: #e44d26; /* Change color on hover */
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+}
